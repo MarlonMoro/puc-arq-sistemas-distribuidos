@@ -1,0 +1,66 @@
+.menu-bar {
+    display: flex;
+    margin-top: 0.5%;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo {
+    display: flex;
+    flex-grow: 1;
+    margin-left: 25%;
+}
+
+@keyframes btnAnimation {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 26%;
+    flex-grow: 1;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.menu-item {
+    font: Roboto;
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu-item:hover {
+    text-decoration: underline;
+    text-decoration-color: #38A0FF;
+    text-decoration-thickness: 3px;
+
+}
+
+.order-btn {
+    color: #FFFF;
+    padding: 0.5%;
+    background-color: #E0272B;
+    border-width: 5px;
+    border-radius: 13px;
+    border-color: #E0272B;
+    border-style: solid;
+}
+
+.order-btn:hover {
+    animation: btnAnimation 0.75s;
+}
+
+.carrinho-btn:hover {
+    animation: btnAnimation 0.75s;
+}

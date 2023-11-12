@@ -1,0 +1,89 @@
+@keyframes btnAnimation {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+.item-container {
+    width: 264px;
+    height: 227px;
+    background: #FFFF;
+    border-radius: 10px;
+    display: flex;
+    padding-top: 1.4%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-container:hover {
+    animation: btnAnimation 1s;
+}
+
+.item-img {
+    width: 90%;
+    height: 60%;
+    background-color: #FFFF;
+    background-size: 247px 134px;
+    border-radius: 15px;
+}
+
+.item-head {
+    display: flex;
+    width: 264px;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.item-title {
+    display: flex;
+    margin-left: 5%;
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 93%;
+    color: #000000;
+}
+
+.add-icon {
+    display: flex;
+    margin-right: 5%;
+    width: 30px;
+    height: 30px;
+}
+
+.item-desc {
+    display: flex;
+    width: 264px;
+    margin-top: 3%;
+}
+
+.item-quantity {
+    display: flex;
+    flex-grow: 1;
+    align-items: flex-end;
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 93%;
+    margin-left: 5%;
+}
+
+.item-value {
+    display: flex;
+    flex-grow: 2;
+    justify-content: flex-end;
+    margin-right: 5%;
+    font-family: 'Asap';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 93%;
+}

@@ -1,0 +1,47 @@
+.banner-container {
+    margin-top: 40px;
+    padding-left: 35px;
+    width: 520px;
+    height: 282px;
+    border-radius: 60px;
+}
+
+.banner-title {
+
+    padding-top: 25px;
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.banner-message {
+    text-decoration: none;
+    margin-top: 35px;
+    margin-left: 25px;
+    width: 220px;
+    color: #FFF;
+    font-family: Asap;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 29px;
+    /* 116% */
+}
+
+.banner-img {
+    width: 160px;
+    height: 160px;
+    margin-right: 50px;
+    background-repeat: no-repeat;
+    background-size: 160px 160px;
+}

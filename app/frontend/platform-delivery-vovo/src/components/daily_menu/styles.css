@@ -1,0 +1,28 @@
+.dailyMenu {
+    display: inline-flex;
+    justify-content: center;
+    width: 130px;
+    height: 140px;
+    padding-top: 5px;
+
+    border-width: 4px;
+    border-radius: 30px;
+    
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 130px 110px;
+
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 24px;
+
+
+}
+
+.dailyMenu:hover {
+    border-color: #38A0FF;
+    border-style: solid;
+}
